@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+   height: 100vh;
+}
+form {
+    float: left;
+    width: 49%;
+    height: 100%;
+    border-right: 3px solid black;
+    margin-right: 2px; 
+}
+.content-form {
+    width: 300px;
+    background-color: white;
+    margin: 20% 30%;
+    padding: 5px;
+}
+.content-form h2 {
+    margin: 30px 0;
+    font-size: 2.2em;
+}
+.content-form #email,#pass {
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 2px solid black;
+}
+.content-form .check {
+    margin-bottom: 15px;
+}
+.content-form .check label {
+    font-size: 1em;
+    opacity: .8;
+}
+.content-form .check a{
+    margin-left: 24px;
+    opacity: .8;
+    font-size: .9em;
+}
+.content-form .sign button {
+    width: 98%;
+    padding: 15px 10px;
+    border: none;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;;
+}
+.content-form .sign button:nth-child(1) {
+    background-color: rgb(19, 4, 34);
+    color: white;
+}
+.content-form .sign button i {
+    margin-right: 10px;
+}
+.content-form p {
+    text-align: center;
+    font-size: .8em;
+}
+.image img {
+    width: 48%;
+    height: 100vh;
+    margin: 0 0 0 2px;
+    object-fit: cover;
+}
+
